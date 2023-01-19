@@ -27,6 +27,6 @@ multiplicador = int(input('escreva um numero : '))
 for i in range (11):
     resultado = i * multiplicador
     #print(' {}*{}={} ' .format(multiplicador,i,resultado))
-    print(f'{multiplicador} * {i} = {resultado}')
+    print(f'{multiplicador} * {i:<2} = {resultado}: >3')
 
 
